@@ -45,7 +45,7 @@ const AllProduct = () => {
         <>
             <Header />
             <h1 className='text-center mt-5'>All Products</h1>
-            <div className=''><input type='text' style={{width:'20%',float:'right',marginRight:'10px'}} name='search' 
+            <div><input type='text' style={{width:'20%',float:'right',marginRight:'10px'}} name='search' 
             className='form-control input-sm' name='search_str'
             onKeyUp={Search} placeholder='Search...' autoComplete='off' /></div>
             <br />
